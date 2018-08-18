@@ -1,0 +1,13 @@
+﻿extends ../layout
+
+block content
+	.container
+		.row
+			each item in movies //-遍历传入的电影数据，是个数组
+				.col-md-2
+					.thumbnail //-缩略图
+						a(href="/movie/#{item._id}") //-每个电影海报对应的id
+							img(src="#{item.poster}",alt="#{item.title}")
+						.caption
+							h3 #{item.title}
+							p:a.btn.btn-primary(href="/movie/#{item._id}",role="button") 观看预告片

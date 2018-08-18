@@ -1,0 +1,25 @@
+{
+  "name": "imovie",
+  "description": "imooc movie",
+  "main": "",
+  "keywords": [
+    "imooc",
+    "movie"
+  ],
+  "authors": [
+    "Zee"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
